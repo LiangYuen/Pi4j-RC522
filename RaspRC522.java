@@ -3,7 +3,9 @@ import com.pi4j.wiringpi.Gpio;
 import com.pi4j.wiringpi.Spi;
 /**
  * Created by Liang on 2016/3/17,originated from  Python RC522
+ * Copyright (c) Liang Yuen, 2016
  */
+
 public class RaspRC522
 {
     private int NRSTPD = 22;        //RST Pin number,default 22
